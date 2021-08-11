@@ -15,7 +15,7 @@ namespace ConsoleApp1
             items[2] = 3;
             items[3] = 4;
             items[4] = 5;
-            Console.WriteLine("This is how we use arrays");
+            Console.WriteLine("I edited this can you see");
         }
     }
 }
