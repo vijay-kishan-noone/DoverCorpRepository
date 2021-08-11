@@ -8,14 +8,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int []items; //Array Declaration
-            items = new int[5]; //Memory Allocation
-            items[0] = 1;
-            items[1] = 2;
-            items[2] = 3;
-            items[3] = 4;
-            items[4] = 5;
-            Console.WriteLine("I edited this can you see");
+            string []items; //Array Declaration
+            items = new string[5]; //Memory Allocation
+            for (int i = 0; i < items.Length; i++)
+            {
+                items[i] = Console.ReadLine();
+
+            }
+            for (int i = 0; i < items.Length; i++)
+            {
+                Console.WriteLine(items[i]);
+            }
         }
     }
 }
