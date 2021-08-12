@@ -1,1 +1,1 @@
-This is just a normal file
+This Repo is Mainly for Basic C# concepts and programs, please feel free to comment if you find any mistakes.
