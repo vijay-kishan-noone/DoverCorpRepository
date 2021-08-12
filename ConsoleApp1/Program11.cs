@@ -14,11 +14,13 @@ namespace ConsoleApp1
                 Console.Write($"{i} ");
                 i++;
             }
+
             Console.WriteLine();
             for( i = 1; i < 11; i++)
             {
                 Console.Write($"{i} ");
-            }
+            
+
             Console.WriteLine();
             i = 1;
             do
@@ -27,6 +29,13 @@ namespace ConsoleApp1
                 i++;
 
             } while (i < 11);
+
+            Console.WriteLine();
+            int[] a = { 1, 2, 3 };
+            foreach (int item in a)
+            {
+                Console.WriteLine(item);
+            }
 
         }
     }
