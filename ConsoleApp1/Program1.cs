@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Hello World!");
         }
     }
