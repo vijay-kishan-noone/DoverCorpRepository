@@ -10,8 +10,10 @@ namespace ConsoleApp1
         {
             Console.Write("Enter your name : ");
             string fullName = Console.ReadLine();
+
             string firstName = fullName.Substring(0, fullName.IndexOf(" "));
             string lastName = fullName.Substring(fullName.LastIndexOf(" ")+1);
+
             Console.WriteLine($"First Name is {firstName}");
             Console.WriteLine($"Last Name is {lastName}");
         }
