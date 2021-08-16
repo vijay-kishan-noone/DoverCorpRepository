@@ -10,7 +10,21 @@ namespace ConsoleApp1
         {
             //string[] items = new string[] { "plants", "flower", "fruits", "vegetables" };
             List<string> items = new List<string>{"plants", "flower", "fruits", "vegetables" };
-            
+            Console.WriteLine(items.First());
+            Console.WriteLine(items.Last());
+            Console.WriteLine(items.ElementAt(2));
+            Console.WriteLine(items.Max());
+            Console.WriteLine(items.Min());
+            Console.WriteLine();
+            foreach (string item in items.Take(2))
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+            foreach (string item in items.Skip(2))
+            {
+                Console.WriteLine(item);
+            }
             Console.WriteLine();
             var query = from item in items select item;
             foreach(var item in query)
