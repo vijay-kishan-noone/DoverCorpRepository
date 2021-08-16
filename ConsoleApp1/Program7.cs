@@ -18,7 +18,6 @@ namespace ConsoleApp1
             Console.WriteLine(v4.GetType());
             var v5 = "hello";
             Console.WriteLine(v5.GetType());
-
         }
     }
 }
