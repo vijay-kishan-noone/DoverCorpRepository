@@ -24,10 +24,10 @@ namespace ConsoleApp1
     }
 }
 /*
-    enum: enumerated type, used to have set of constants
-    Example:    Gender, MartialStatus, Color, Direction
+enum: enumerated type, used to have set of constants
+Example:    Gender, MartialStatus, Color, Direction
  
-  const used to have constatnt variable, which cannot be changed
-   const string directorName= "Raj";
-    Console.WriteLine(directorName);
+const used to have constatnt variable, which cannot be changed
+const string directorName= "Raj";
+Console.WriteLine(directorName);
  */
