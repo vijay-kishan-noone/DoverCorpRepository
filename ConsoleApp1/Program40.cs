@@ -32,6 +32,16 @@ namespace ConsoleApp1
             Console.WriteLine(Next(1000));
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();
+
+            Predicate<int> IsZero = delegate (int n)
+            {
+                if (n == 0)
+                    return true;
+                else
+                    return false;
+            };
+            Console.WriteLine(IsZero(0));
+            Console.WriteLine();
         }
     }
 }
