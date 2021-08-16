@@ -79,8 +79,8 @@ namespace ConsoleApp1
                 {
                     case 1: Store();
                         break;
-                    case 2: Update();
-                        break;
+                    //case 2: Update();
+                    //    break;
                     case 3: flag = false;
                         break;
                     default: Console.WriteLine("Invalid Choice");
