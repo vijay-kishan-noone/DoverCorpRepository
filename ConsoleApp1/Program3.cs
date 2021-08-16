@@ -11,6 +11,7 @@ namespace ConsoleApp1
             Console.Write("Enter the Character : ");
             char ch = Convert.ToChar(Console.ReadLine());
             Console.WriteLine($"Given Character is : {ch}");
+
             if(ch>64 && ch<91)
                 Console.WriteLine($"{ch} is a Capital Letter");
             else if(ch>96 && ch<123)
