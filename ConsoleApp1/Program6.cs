@@ -10,6 +10,7 @@ namespace ConsoleApp1
         {
             Console.Write("Enter the number : ");
             int d = Convert.ToInt32(Console.ReadLine());
+
             switch (d)
             {
                 case 1: Console.WriteLine("North");
