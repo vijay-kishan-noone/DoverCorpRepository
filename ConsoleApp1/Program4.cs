@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Program4
     {
-        //Read marks for m,p,c and display the total and average
+        //Read marks for m,p,c and display the total and average of those marks
         static void Main(string[] args)
         {
             Console.Write("Enter the marks for math : ");
