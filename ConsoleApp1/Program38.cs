@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace ConsoleApp1
 {
@@ -8,7 +8,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
+            //string[] items = new string[] { "plants", "flower", "fruits", "vegetables" };
+            List<string> items = new List<string>{"plants", "flower", "fruits", "vegetables" };
+            var query = from item in items select item;
+            foreach(var item in query)
+                Console.WriteLine(item);
         }
     }
 }
+/*Linq: Language Integrated Query
+Line enable us to interact with datasource  with a single syntax 
+Data sources like like array, collection, file, database, etc., 
+In order to use linq feature we can use following ways
+a) Sql like queries
+b) Linq like queries
+ */
