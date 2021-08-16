@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Text;
 
 namespace ConsoleApp1
 {
@@ -8,8 +7,29 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            ArrayList a = new ArrayList();
-            Console.WriteLine(a.Capacity);
+            ArrayList a = new ArrayList(3); // once remove 3 and see the difference
+            Console.WriteLine($"Capacity is {a.Capacity} and Count is {a.Count}");
+            a.Add(1);
+            Console.WriteLine($"Capacity is {a.Capacity} and Count is {a.Count}");
+            a.Add("Vijay");
+            Console.WriteLine($"Capacity is {a.Capacity} and Count is {a.Count}");
+            a.Add("Kishan");
+            Console.WriteLine($"Capacity is {a.Capacity} and Count is {a.Count}");
+            a.Add("Dover Employee?");
+            Console.WriteLine($"Capacity is {a.Capacity} and Count is {a.Count}");
+            a.Add(true);
+            Console.WriteLine($"Capacity is {a.Capacity} and Count is {a.Count}");
+            a.TrimToSize();
+            Console.WriteLine($"Capacity is {a.Capacity} and Count is {a.Count}");
+
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Green;
+            foreach (var item in a)
+            {
+                Console.Write($"{item} ");
+            }
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
@@ -47,6 +67,6 @@ How a collection object items allow different types of data?
 How a collection object allow unlimited items?
 The default Capacity is zero
 While adding first element the Capacity incrases to 4
-While adding fifth element the Capacity incrases to 8
+While adding fifth element the Capacity incrases to 8   
 While adding ninth element the Capacity incrases to 16
  */
