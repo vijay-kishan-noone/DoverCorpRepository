@@ -10,6 +10,8 @@ namespace ConsoleApp1
         {
             //string[] items = new string[] { "plants", "flower", "fruits", "vegetables" };
             List<string> items = new List<string>{"plants", "flower", "fruits", "vegetables" };
+            
+            Console.WriteLine();
             var query = from item in items select item;
             foreach(var item in query)
                 Console.WriteLine(item);
