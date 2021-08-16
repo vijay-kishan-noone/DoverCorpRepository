@@ -24,6 +24,7 @@ namespace ConsoleApp1
 /*
 The datatypes used in .NET  are available in a hierachy called CTS (Common Type System)
 The root type is Object,all data types like int, char,double etc., derived from Object type
+
 Object type variable allowed to store any type of data called boxing
 Boxing refers to assign any type of data into object type
 Unboxing refers to dereference the boxed value
