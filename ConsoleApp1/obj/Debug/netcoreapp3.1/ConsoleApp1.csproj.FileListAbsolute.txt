@@ -17,7 +17,6 @@ C:\Users\11035974\Source\Repos\DoverCorpRepository\ConsoleApp1\bin\Debug\netcore
 C:\Users\11035974\Source\Repos\DoverCorpRepository\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
 C:\Users\11035974\Source\Repos\DoverCorpRepository\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\11035974\Source\Repos\DoverCorpRepository\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
-C:\Users\11035974\Source\Repos\DoverCorpRepository\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
 C:\Users\11035974\Source\Repos\DoverCorpRepository\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
 C:\Users\11035974\Source\Repos\DoverCorpRepository\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
 C:\Users\11035974\Source\Repos\DoverCorpRepository\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
