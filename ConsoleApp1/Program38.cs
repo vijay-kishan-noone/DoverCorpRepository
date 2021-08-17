@@ -26,9 +26,18 @@ namespace ConsoleApp1
                 Console.WriteLine(item);
             }
             Console.WriteLine();
-            var query = from item in items select item;
-            foreach(var item in query)
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            //var query = from item in items select item;
+            //var query = from item in items orderby item select item;
+            //var query = from item in items orderby item descending select item;
+            //var query = from item in items where name.Length ==5 select item;
+
+            //var query = items.Where(x => x.Length == 6); 
+            var query = items.Take(2).Where(x => x.Length == 6); //we use func delegate in Where()
+            foreach (var item in query)
                 Console.WriteLine(item);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine();
         }
     }
 }
